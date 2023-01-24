@@ -34,7 +34,7 @@ const sizes = {
 
 //light
 
-const light = new THREE.PointLight(0xffffff, 1, 100);
+const light = new THREE.PointLight(0xffffff, 2, 100);
 light.position.set(1, 15, 20);
 scene.add(light);
 
@@ -51,6 +51,7 @@ scene.add(camera);
 
 //renderer
 
+//! sual
 const canvas = document.querySelector(".webgl");
 const renderer = new THREE.WebGLRenderer({ canvas });
 
